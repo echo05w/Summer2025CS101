@@ -16,14 +16,23 @@ int main() {
     //         numOfOdd++;
     //     }
     // }
+    // while(i<=1000) {
+    //     int randNum=rand()%1000;
+    //     if(randNum%2==0) {
+    //         numOfOdd++;
+    //     }else {
+    //         numOfEven++;
+    //     }
+    //     i++;
+    // }
     while(i<=1000) {
         int randNum=rand()%1000;
         if(randNum%2==0) {
-            numOfOdd++;
-        }else {
             numOfEven++;
+        }else {
+            numOfOdd++;
         }
-        i++;
+    i=i+1;
     }
     cout<<"The number of even number is "<<numOfEven<<endl;
 }
