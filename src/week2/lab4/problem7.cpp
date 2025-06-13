@@ -35,4 +35,5 @@ int main() {
     i=i+1;
     }
     cout<<"The number of even number is "<<numOfEven<<endl;
+    cout<<"The number of odd number is "<<numOfOdd<<endl;
 }
