@@ -3,7 +3,15 @@
 //
 #include <iostream>
 using namespace std;
-int main() {
 
+int main() {
+    int n;
+    cout << "Please enter a number: ";
+    cin >> n;
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    if ("A"="Z")
     return 0;
 }
